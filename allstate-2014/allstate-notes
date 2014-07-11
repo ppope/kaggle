@@ -1,0 +1,33 @@
+
+Determine the conditions for when the last quoted option is the best option, and then upon choosing some threshold value, use another method (multinomial prediction?) instead.
+
+
+---
+
+Nonparametric statistics?
+
+Use glms to find significant variables.
+Use those variables to classify new data.
+
+
+Use the R package nnet and function multinom() to predict multinomial coverage data from customer data.
+
+
+-http://www.r-bloggers.com/how-to-multinomial-regression-models-in-r/
+
+
+---
+
+Is the data ordinal (i.e. there is ordering to the categories) or nominal (i.e. there is no ordering).
+
+
+---
+
+How to predict from each customer's data what they will buy?
+
+How to impute data?
+
+Can I construct a model for each customer and then combine them in a forest?
+
+
+
